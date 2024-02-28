@@ -25,24 +25,27 @@
     <!-- meta -->
 
 
-<title>Hello World | Hexo</title>
+<title>Hexo常识 | Hexo</title>
 
+
+    <meta name="keywords" content="HEXO">
 
 
 
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="hexo常用命令和hexo本地启动服务按catrl c 关闭本地服务不管用的解决方法 常用命令12345678hexo new &quot;name&quot;       # 新建文章hexo new page &quot;name&quot;  # 新建页面hexo g                # 生成页面hexo d                # 部署hexo g -d">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2024/02/26/hello-world/index.html">
+<meta property="og:title" content="Hexo常识">
+<meta property="og:url" content="http://example.com/2024/02/27/Hexo%E5%B8%B8%E8%AF%86/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="hexo常用命令和hexo本地启动服务按catrl c 关闭本地服务不管用的解决方法 常用命令12345678hexo new &quot;name&quot;       # 新建文章hexo new page &quot;name&quot;  # 新建页面hexo g                # 生成页面hexo d                # 部署hexo g -d">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-02-26T07:56:14.067Z">
-<meta property="article:modified_time" content="2024-02-26T09:02:23.982Z">
+<meta property="article:published_time" content="2024-02-27T07:14:10.000Z">
+<meta property="article:modified_time" content="2024-02-27T07:20:27.716Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="HEXO">
 <meta name="twitter:card" content="summary_large_image">
 
 
@@ -67,7 +70,7 @@
             <header class="header">
     <div class="header__left">
         <a href="/" class="button">
-            <span class="logo__text">DaMing</span>
+            <span class="logo__text">大明</span>
         </a>
     </div>
     <div class="header__right">
@@ -79,10 +82,6 @@
                     <a href="/tags/" class="navbar-menu button">标签</a>
                 
                     <a href="/archives/" class="navbar-menu button">归档</a>
-                
-                    <a href="/friends/" class="navbar-menu button">友链</a>
-                
-                    <a href="/page/" class="navbar-menu button">Page</a>
                 
             </div>
         
@@ -102,10 +101,6 @@
                 
                     <a href="/archives/" class="dropdown-menu button">归档</a>
                 
-                    <a href="/friends/" class="dropdown-menu button">友链</a>
-                
-                    <a href="/page/" class="dropdown-menu button">Page</a>
-                
             </div>
         
     </div>
@@ -117,10 +112,10 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        Hello World
+        Hexo常识
     </h1>
     <div class="post-title__meta">
-        <a href="/archives/2024/02/" class="post-meta__date button">2024-02-26</a>
+        <a href="/archives/2024/02/" class="post-meta__date button">2024-02-27</a>
         
  
         
@@ -139,33 +134,25 @@
 <article class="post content-card">
     <div class="post__header"></div>
     <div class="post__content">
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <p>hexo常用命令和hexo本地启动服务按catrl c 关闭本地服务不管用的解决方法</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;name&quot;       # 新建文章</span><br><span class="line">hexo new page &quot;name&quot;  # 新建页面</span><br><span class="line">hexo g                # 生成页面</span><br><span class="line">hexo d                # 部署</span><br><span class="line">hexo g -d             # 生成页面并部署</span><br><span class="line">hexo s                # 本地预览</span><br><span class="line">hexo clean            # 清除缓存和已生成的静态文件</span><br><span class="line">hexo help             # 帮助</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<span id="more"></span>
+<h2 id="关闭服务"><a href="#关闭服务" class="headerlink" title="关闭服务"></a>关闭服务</h2><h3 id="win11系统关闭程序"><a href="#win11系统关闭程序" class="headerlink" title="win11系统关闭程序"></a>win11系统关闭程序</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">netstat -aon|findstr &quot;4000&quot;   #查占端口对应的进程的pid(4000为端口号)</span><br><span class="line">taskkill -pid 14868 -f        #关闭对应的pid程序(14868为程序的pid)</span><br></pre></td></tr></table></figure>
 
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="关闭Hexo服务命令"><a href="#关闭Hexo服务命令" class="headerlink" title="关闭Hexo服务命令"></a>关闭Hexo服务命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill /F /IM node.exe</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
     </div>
      
-    <div class="post-footer__meta"><p>updated at 2024-02-26</p></div> 
-    <div class="post-entry__tags"></div> 
+    <div class="post-footer__meta"><p>updated at 2024-02-27</p></div> 
+    <div class="post-entry__tags"><a href="/tags/HEXO/" class="post-tags__link button"># HEXO</a></div> 
 </article>
 
 
     <div class="nav">
         <div class="nav__prev">
             
-                <a href="/2024/02/26/%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/" class="nav__link">
+                <a href="/2024/02/28/maven/" class="nav__link">
                     <div>
                         <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
                     </div>
@@ -174,7 +161,7 @@
                             Previous Post
                         </div>
                         <div class="nav__title">
-                            测试一下
+                            maven
                         </div>
                     </div>
                 </a>
